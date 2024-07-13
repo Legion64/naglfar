@@ -1,5 +1,7 @@
 # Naglfar
 
+<img alt="gitleaks badge" src="https://img.shields.io/badge/protected%20by-gitleaks-blue">
+
 *⚠️ This project is being developed for learning purposes. Please note that any problems arising from its use are your own!*
 
 ## 🗒️ About Naglfar
