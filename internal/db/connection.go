@@ -1,7 +1,7 @@
 package db
 
 import (
-	"auth-app/internal/db/model"
+	"github.com/Legion64/naglfar/internal/db/model"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 

@@ -1,8 +1,8 @@
 package setup
 
 import (
-	"auth-app/internal/db"
-	"auth-app/internal/db/model"
+	"github.com/Legion64/naglfar/internal/db"
+	"github.com/Legion64/naglfar/internal/db/model"
 )
 
 func MigrateDatabase(db db.DatabaseConnection) error {

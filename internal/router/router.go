@@ -1,7 +1,7 @@
 package router
 
 import (
-	"auth-app/internal/handler"
+	"github.com/Legion64/naglfar/internal/handler"
 	"github.com/labstack/echo/v4"
 	"net/http"
 )

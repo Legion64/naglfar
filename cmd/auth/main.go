@@ -1,9 +1,9 @@
 package main
 
 import (
-	"auth-app/internal/db"
-	"auth-app/internal/router"
-	"auth-app/internal/validator"
+	"github.com/Legion64/naglfar/internal/db"
+	"github.com/Legion64/naglfar/internal/router"
+	"github.com/Legion64/naglfar/internal/validator"
 	"github.com/labstack/echo/v4"
 )
 

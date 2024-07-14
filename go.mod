@@ -1,4 +1,4 @@
-module auth-app
+module github.com/Legion64/naglfar
 
 go 1.22.4
 

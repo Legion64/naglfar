@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"auth-app/internal/crypto"
+	"github.com/Legion64/naglfar/internal/crypto"
 	"github.com/labstack/echo/v4"
 	"net/http"
 )
