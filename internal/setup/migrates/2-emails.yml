@@ -1,0 +1,23 @@
+emails:
+  columns:
+    id:
+      type: bigint
+      not_null: true
+      auto_increment: true
+    profile_id:
+      type: bigint
+    email:
+      type: varchar(255)
+      not_null: true
+    is_primary:
+      type: tinyint(1)
+      default: 0
+      not_null: true
+  constraints:
+    emails_pk:
+      column: id
+  foreign_keys:
+    emails_profiles_fk:
+      column: profile_id
+      ref_table: profiles
+      ref: id
